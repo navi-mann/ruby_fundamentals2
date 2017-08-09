@@ -1,5 +1,5 @@
 def greet_backwards(name)
-  name.reverse! * 2
+  p "Hello,#{name.reverse! * 2}! Welcome home."
 end
 
 p greet_backwards ("Bob")
