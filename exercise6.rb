@@ -12,7 +12,7 @@ puts "What is the temperature today in Fahrenheit?"
 temperature = gets.chomp.to_i
 
 def convert(fahrenheit)
-  return "foo"
+  (fahrenheit - 32) * (5.0/9.0)
 end
 
 p "Today's temperature in celsius is #{convert (temperature)}."
